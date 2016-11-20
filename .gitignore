@@ -21,7 +21,7 @@
 .byebug_history
 
 # Ignore other unneeded files
-database.yml
+.yml
 doc/
 *.swp
 *~
@@ -30,5 +30,5 @@ doc/
 .idea
 .secret
 .env
-secrets.yml
+.rbenv-vars
 .old
