@@ -1,6 +1,8 @@
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: rgb(89%,96.5%,94.5%);
+
+/*  background:url("./rails_project/portada_app/app/assets/images/fondo4.jpg")transparent no-repeat fixed top center;*/
+  color: #F80;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -28,7 +30,7 @@ a {
   }
 
   &:hover {
-    color: #fff;
+    color: #F80;
     background-color: #000;
   }
 }
