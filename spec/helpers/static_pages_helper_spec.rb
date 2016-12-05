@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+require 'spect_helper'
 # Specs in this file have access to a helper object that includes
 # the StaticPagesHelper. For example:
 #
@@ -13,3 +13,4 @@ require 'rails_helper'
 RSpec.describe StaticPagesHelper, type: :helper do
   pending "add some examples to (or delete) #{__FILE__}"
 end
+

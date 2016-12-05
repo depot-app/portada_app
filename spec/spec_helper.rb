@@ -41,4 +41,10 @@ RSpec.configure do |config|
   config.order = "random"
 
   config.include Capybara::DSL
+  config.include Rails.application.routes.url_helpers
+
+#RSpec.describe "an example" do
+#  it "is a skipped example"
+#end
+
 end
