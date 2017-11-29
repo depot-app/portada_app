@@ -14,7 +14,7 @@ require 'spec_helper'
 
 describe "Static pages" do
 
-  let(:base_title) {"Ruby on Rails Tutorial Sample App"}
+  let(:base_title) { "Ruby on Rails Tutorial Sample App" }
 
   subject { page }
 
@@ -32,7 +32,7 @@ describe "Static pages" do
     click_link "Contact"
     expect(page).to have_title(full_title('Contact'))
     click_link "Home"
-    click_link "Sign up now!"
+    click_link "Sign up now!" #fill in
     expect(page).to have_title(full_title(''))
     click_link "sample app"
     expect(page).to have_title(full_title(''))
