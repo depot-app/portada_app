@@ -42,7 +42,7 @@ end
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
-#  gem 'pg'
+  gem 'pg'
 end
 
 group :doc do
@@ -60,7 +60,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  
   gem 'rails_12factor'
 end
 
